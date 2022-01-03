@@ -1,0 +1,255 @@
+:root {
+    --white: #F5F5F5;
+    --black: #181505;
+    --green: #023432;
+    --grey: #718F91;
+    --light-grey: #D3D3D3;
+    --bluish-grey: #657C8B;
+    --light-blue: #B9DBE0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+
+    background-color: var(--light-grey, #D3D3D3);
+    color: var(--black, #181505);
+
+    margin: 0 10%;
+
+    box-shadow: 0 0 10px 0px var(--bluish-grey, #657C8B);
+
+    font-family: "Montserrat", sans-serif;
+}
+
+header,
+main {
+    display: grid;
+    grid-template-columns: minmax(auto, 2fr) minmax(auto, 1fr);
+
+    background-color: var(--white, #F5F5F5);
+}
+
+p {
+    line-height: 2;
+}
+
+header {
+    grid-template-areas:
+        "my-name photo"
+        "contacts photo";
+}
+
+section.my-name {
+    grid-area: my-name;
+
+    background-color: var(--light-blue, #B9DBE0);
+
+    padding: 3vw 5vw;
+}
+
+div.my-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+    border: 3px solid var(--green, #023432);
+
+    padding: 1.5vw 2vw;
+}
+
+section.contacts {
+    grid-area: contacts;
+
+    background-color: var(--light-blue, #B9DBE0);
+
+    padding: 0 5vw 3vw 5vw;
+}
+
+div.contacts {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(auto, 1fr));
+    grid-template-rows: repeat(2, minmax(auto, 1fr));
+    gap: 0.7em;
+}
+
+div.photo {
+    grid-area: photo;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--grey, #718F91);
+
+    height: 100%;
+}
+
+img.photo {
+    max-width: 150px;
+    max-height: 150px;
+    height: auto;
+
+    box-shadow: 0 0 0 2px var(--green, #023432), 0 0 0 9px var(--grey, #718F91), 0 0 0 13px var(--green, #023432);
+    border-radius: 50%;
+}
+
+main {
+    grid-template-areas: "projects about"
+        "education skills"
+        "code-example lang-skills";
+}
+
+section.projects {
+    grid-area: projects;
+}
+
+section.education {
+    grid-area: education;
+}
+
+section.code-example {
+    grid-area: code-example;
+}
+
+section.about {
+    grid-area: about;
+}
+
+section.skills {
+    grid-area: skills;
+}
+
+section.lang-skills {
+    grid-area: lang-skills;
+}
+
+section.first-column {
+    padding: 2vw 5vw;
+}
+
+section.second-column {
+    background-color: var(--bluish-grey, #657C8B);
+
+    color: var(--white, #F5F5F5);
+
+    padding: 2vw 5vw;
+}
+
+div.first-column {
+    display: flex;
+    align-items: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+h1 {
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    font-size: 3em;
+
+    margin: 0;
+}
+
+h2 {
+    border: 3px solid var(--white, #F5F5F5);
+
+    padding: 0.2em 0.7em;
+
+    display: inline-flex;
+
+    font-size: 2em;
+}
+
+h2.first-column {
+    border: 3px solid var(--bluish-grey, #657C8B);
+}
+
+h2.my-name {
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+    text-transform: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3em;
+
+    font-weight: 600;
+}
+
+h2.contacts {
+    border: 3px solid var(--green, #023432);
+}
+
+hr {
+    border-top: 3px solid var(--bluish-grey, #657C8B);
+    border-radius: 0 5px 5px 0;
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    padding: 0.4em 0.2em;
+    padding-left: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(auto, 1fr));
+    grid-template-areas:
+        "github-link year rs-link";
+    justify-content: center;
+    align-items: center;
+
+    padding: 1vw 5vw;
+
+    background-color: var(--light-blue, #B9DBE0);
+}
+
+footer * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.github-link {
+    grid-area: github-link;
+}
+
+time {
+    grid-area: year;
+}
+
+a.rs-link {
+    grid-area: rs-link;
+}

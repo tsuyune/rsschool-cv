@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liudmila Fedorova CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <section class="my-name">
+            <div class="my-name">
+                <h1>Liudmila Fedorova</h1>
+                <h2 class="my-name">Junior Frontend Developer</h2>
+            </div>
+        </section>
+        <section class="contacts">
+            <h2 class="contacts">Contacts</h2>
+            <div class="contacts">
+                <address><b>Location:</b><br> Budva, Montenegro</address>
+                <span><b>Email:</b><br> ritsumei@yandex.com</span>
+                <span><b>Phone:</b><br> +79027700997</span>
+                <span><b>Skype:</b><br> ritsumei@yandex.com</span>
+                <span><b>Telegram:</b><br> @Ritsumei</span>
+                <span><b>Discord:</b><br> Liudmila Fedorova (@tsuyune)</span>
+                <span><b>GitHub:</b><br> tsuyune</span>
+                <span><b>CodeWars:</b><br> tsuyune</span>
+            </div>
+        </section>
+        <div class="photo">
+            <img class="photo" src="./img/photo.png" alt="My photo" width="200" height="200">
+        </div>
+    </header>
+    <main>
+        <section class="about second-column">
+            <h2>About me</h2>
+            <p>I am a beginner in Frontend development, who wants to become a real developer. I am flexible, so can
+                easily learn new technologies and <b><i>I am keen on doing it</i></b>.
+            </p>
+        </section>
+
+        <section class="skills second-column">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>Sass</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>BEM Methodology</li>
+                <li>VSCode/Emmet</li>
+                <li>Figma</li>
+                <li>Adobe Photoshop</li>
+            </ul>
+        </section>
+
+        <section class="code-example first-column">
+            <div class="first-column">
+                <h2 class="first-column">Code example</h2>
+                <hr>
+            </div>
+            <p>
+                Fizz Buzz task on
+                <a href="https://www.codewars.com/kata/5300901726d12b80e8000498">CodeWars</a>
+            </p>
+
+            <pre>
+                    <code>
+function fizzbuzz(n) {
+    if (n &lt; 1) return;
+    let str = [];
+    for (let i = 1; i &lt;= n; i++) {
+        if (i % 3 == 0 && i % 5 == 0) str.push("FizzBuzz")
+        else if (i % 3 == 0) str.push("Fizz")
+        else if (i % 5 == 0) str.push("Buzz")
+        else str.push(i);
+    }
+    return str;
+}
+                    </code>
+                </pre>
+        </section>
+
+        <section class="projects first-column">
+            <div class="first-column">
+                <h2 class="first-column">Projects</h2>
+                <hr>
+            </div>
+
+            <h3><a href="https://github.com/tsuyune/bongo-cat-drum-kit">Bongo cat drum kit</a></h3>
+            <p><b>JavaScript, HTML, CSS</b></p>
+            <p>The project is made for <a href="https://javascript30.com/">30 Day Vanilla JS Challenge by Wesbos</a>
+            </p>
+
+            <h3><a href="https://github.com/tsuyune/aod-bikes-landing-page">AOD bikes landing page</a></h3>
+            <p><b>HTML, CSS, JavaScript</b></p>
+            <p>I have made the landing page for practicing HTML and CSS skills</p>
+
+            <h3><a href="https://github.com/tsuyune/pc-assembly-landing-page">PC Assembly Banner</a></h3>
+            <p><b>HTML, CSS</b></p>
+            <p>The project is for The Young Programmer's School</p>
+        </section>
+
+        <section class="education first-column">
+            <div class="first-column">
+                <h2 class="first-column">Education</h2>
+                <hr>
+            </div>
+            <ul>
+                <li>The Rolling Scopes School - <i>now</i></li>
+                <li>freeCodeCamp (Responsive Web Design)</li>
+                <li>Learn Git Branching</li>
+                <li>Code-Basics (HTML and CSS courses)</li>
+                <li>Grasshopper app (JS Fundamentals course)</li>
+                <li>The Young Programmer's School, <i>Petrozavodsk</i></li>
+            </ul>
+        </section>
+
+        <section class="lang-skills second-column">
+            <h2>Language skills</h2>
+            <ul>
+                <li>Russian - <i>native</i></li>
+                <li>English - <i>intermediate</i></li>
+                <li>Swedish - <i>elementary</i></li>
+                <li>Montenegrin - <i>beginner</i></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <a class="github-link" href="https://github.com/tsuyune">GitHub tsuyune</a>
+        <time datetime="2022">2022</time>
+        <a class="rs-link" href="https://rs.school/js/"><img src="./img/rs_school_js.svg" alt="My photo" width="100"
+                height="100"></a>
+    </footer>
+</body>
+
+</html>

@@ -77,7 +77,7 @@ function fizzbuzz(n) {
     if (n &lt; 1) return;
     let str = [];
     for (let i = 1; i &lt;= n; i++) {
-        if (i % 3 == 0 && i % 5 == 0) str.push("FizzBuzz")
+        if (i % 3 == 0 &amp;&amp; i % 5 == 0) str.push("FizzBuzz")
         else if (i % 3 == 0) str.push("Fizz")
         else if (i % 5 == 0) str.push("Buzz")
         else str.push(i);

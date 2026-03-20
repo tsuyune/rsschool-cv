@@ -1,1 +1,1 @@
-# rsschool-cv
+https://tsuyune.github.io/rsschool-cv/cv

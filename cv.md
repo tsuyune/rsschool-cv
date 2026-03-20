@@ -1,14 +1,15 @@
+![Hihihehehaha](https://i.postimg.cc/cLS0ckmf/Stee-Zid-NItbb35b-WDlx-ZRAWv-EBYAsiz71U0be97arz-S3AKMrr5rhzqi6z-Qly-BFKq3jk1Al-Ig-QQBz-YE8XP0j-ZFbz.jpg)
 
 # Liudmila Larionova
 ## Junior Frontend Developer
 
 ### Contact info
 
-Location: Batumi, Georgia
-Email: [ritsumei@yandex.com](mailto:ritsumei@yandex.com) 
-GitHub: [tsuyune](https://github.com/tsuyune)
-The Rolling Scopes School: [tsuyune](https://app.rs.school/profile?githubId=tsuyune)
-CodeWars: [tsuyune](https://www.codewars.com/users/rsschool_40fa3d862cd63ec6)
+**Location**: Batumi, Georgia
+**Email**: [ritsumei@yandex.com](mailto:ritsumei@yandex.com) 
+**GitHub**: [tsuyune](https://github.com/tsuyune)
+**The Rolling Scopes School**: [tsuyune](https://app.rs.school/profile?githubId=tsuyune)
+**CodeWars**: [tsuyune](https://www.codewars.com/users/rsschool_40fa3d862cd63ec6)
 
 ### Intro
 
@@ -36,11 +37,13 @@ I am flexible, so can easily learn new technologies and _I am keen on doing it._
 
 ### Languages
 
-* English - B2
+* English - *Upper-Intermediate*
 
-* Russian - Native
+* Russian - *Native*
 
-* Swedish - A2
+* Swedish - *Pre-Intermediate*
+
+* Hilichurlian - *Intermediate*
 
 ### Education
 
@@ -81,7 +84,7 @@ I have made the landing page for practicing HTML and CSS skills
 
 The project is for The Young Programmer's School
 
-### Code Examples
+### Code Example
 
 Fizz Buzz task on [CodeWars](https://www.codewars.com/kata/5300901726d12b80e8000498)
 

@@ -83,3 +83,19 @@ The project is for The Young Programmer's School
 
 ### Code Examples
 
+Fizz Buzz task on [CodeWars](https://www.codewars.com/kata/5300901726d12b80e8000498)
+
+```
+function fizzbuzz(n) {
+    if (n < 1) return;
+    let str = [];
+    for (let i = 1; i <= n; i++) {
+        if (i % 3 == 0 && i % 5 == 0) str.push("FizzBuzz")
+        else if (i % 3 == 0) str.push("Fizz")
+        else if (i % 5 == 0) str.push("Buzz")
+        else str.push(i);
+    }
+    return str;
+}
+```
+

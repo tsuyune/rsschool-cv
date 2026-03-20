@@ -3,12 +3,16 @@
 # Liudmila Larionova
 ## Junior Frontend Developer
 
-### Contact info
+### Contacts
 
 **Location**: Batumi, Georgia
+
 **Email**: [ritsumei@yandex.com](mailto:ritsumei@yandex.com) 
+
 **GitHub**: [tsuyune](https://github.com/tsuyune)
+
 **The Rolling Scopes School**: [tsuyune](https://app.rs.school/profile?githubId=tsuyune)
+
 **CodeWars**: [tsuyune](https://www.codewars.com/users/rsschool_40fa3d862cd63ec6)
 
 ### Intro
@@ -35,7 +39,7 @@ I am flexible, so can easily learn new technologies and _I am keen on doing it._
 
 * Git
 
-### Languages
+### Language skills
 
 * English - *Upper-Intermediate*
 

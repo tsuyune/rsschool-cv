@@ -13,3 +13,84 @@ body {
     padding: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.header {}
+
+.header__title {
+    margin: 0;
+}
+
+.header__role {
+    font-style: italic;
+    color: #555;
+    margin: 0;
+}
+
+.contacts {}
+
+.contacts__label {
+    font-weight: 700;
+}
+
+.intro {}
+
+.skills {}
+
+.languages {}
+
+.education {}
+
+.projects {}
+
+.project__link {
+    font-weight: 700;
+    font-size: 1.2em;
+
+    color: #007acc;
+    text-decoration: none;
+}   
+
+.code-example {}
+
+.code-example__code {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    
+}
+
+.section__title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+
+    color: #333;
+}
+
+.section__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.languages__level {
+    font-style: italic;
+    color: #555;
+}
+
+.education__date {
+    font-style: italic;
+    color: #555;
+}
+
+.project__skills {
+    font-weight: 700;
+}
+
+/* .skills__list {
+}
+.languages__list {
+}
+.education__list {
+}
+.projects__list {
+} */

@@ -11,38 +11,63 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="./assets/favicon/favicon.ico" rel="icon" type="image/x-icon">
 </head>
 
 <body>
     <div class="container">
         <header class="header">
-            <img src="https://i.postimg.cc/cLS0ckmf/Stee-Zid-NItbb35b-WDlx-ZRAWv-EBYAsiz71U0be97arz-S3AKMrr5rhzqi6z-Qly-BFKq3jk1Al-Ig-QQBz-YE8XP0j-ZFbz.jpg"
-                alt="Liudmila Larionova" width="500">
-            <h1 class="header__title">Liudmila Larionova</h1>
-            <h2 class="header__role">Junior Frontend Developer</h2>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#about">About</a>
+                    </li>
+                                        <li class="nav__item">
+                        <a class="nav__link" href="#contacts">Contacts</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#languages">Language skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#education">Education</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#code-example">Code example</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <main>
-            <section class="contacts">
-                <h3 class="section__title">Contacts</h3>
-                <p><span class="contacts__label">Location:</span> Batumi, Georgia</p>
-                <p><span class="contacts__label">Email:</span> <a
-                        href="mailto:ritsumei@yandex.com">ritsumei@yandex.com</a></p>
-                <p><span class="contacts__label">GitHub:</span> <a href="https://github.com/tsuyune">tsuyune</a></p>
-                <p><span class="contacts__label">The Rolling Scopes School:</span> <a
-                        href="https://app.rs.school/profile?githubId=tsuyune">tsuyune</a></p>
-                <p><span class="contacts__label">CodeWars:</span> <a
-                        href="https://www.codewars.com/users/rsschool_40fa3d862cd63ec6">tsuyune</a>
-                </p>
-            </section>
-            <section class="intro">
-                <h3 class="section__title">Intro</h3>
+            <section id="about" class="about">
+                <img src="./assets/images/cats.jpg" alt="cats" width="500">
+                <h1 class="about__title">Liudmila Larionova</h1>
+                <p class="about__role">Junior Frontend Developer</p>
                 <p>I am a beginner Frontend Developer, who is enthusiastic about creating user-friendly web interfaces
                     and
                     solving design challenges. Currently expanding my knowledge through hands-on projects and continuous
                     learning in modern frontend technologies.</p>
             </section>
-            <section class="skills">
-                <h3 class="section__title">Skills</h3>
+            <section id="contacts" class="contacts">
+                <h2 class="section__title">Contacts</h2>
+                <p><span class="contacts__label">Location:</span> Batumi, Georgia</p>
+                <p><span class="contacts__label">Email:</span> <a class="contacts__link"
+                        href="mailto:ritsumei@yandex.com">ritsumei@yandex.com</a></p>
+                <p><span class="contacts__label">GitHub:</span> <a class="contacts__link"
+                        href="https://github.com/tsuyune">tsuyune</a></p>
+                <p><span class="contacts__label">The Rolling Scopes School:</span> <a class="contacts__link"
+                        href="https://app.rs.school/profile?githubId=tsuyune">tsuyune</a></p>
+                <p><span class="contacts__label">CodeWars:</span> <a class="contacts__link"
+                        href="https://www.codewars.com/users/rsschool_40fa3d862cd63ec6">tsuyune</a>
+                </p>
+            </section>
+            <section id="skills" class="skills">
+                <h2 class="section__title">Skills</h2>
                 <ul class="section__list skills__list">
                     <li>HTML/CSS</li>
                     <li>JavaScript</li>
@@ -54,8 +79,8 @@
                     <li>Git</li>
                 </ul>
             </section>
-            <section class="languages">
-                <h3 class="section__title">Language skills</h3>
+            <section id="languages" class="languages">
+                <h2 class="section__title">Language skills</h2>
                 <ul class="section__list languages__list">
                     <li>English - <span class="languages__level">Upper-Intermediate</span></li>
                     <li>Russian - <span class="languages__level">Native</span></li>
@@ -63,8 +88,8 @@
                     <li>Hilichurlian - <span class="languages__level">Intermediate</span></li>
                 </ul>
             </section>
-            <section class="education">
-                <h3 class="section__title">Education</h3>
+            <section id="education" class="education">
+                <h2 class="section__title">Education</h2>
                 <ul class="section__list education__list">
                     <li>The Rolling Scopes School - <span class="education__date">now</span></li>
                     <li>Scrimba - Learn React Course - <span class="education__date">now</span></li>
@@ -75,14 +100,14 @@
                     <li>The Young Programmer's School, Petrozavodsk</li>
                 </ul>
             </section>
-            <section class="projects">
-                <h3 class="section__title">Projects</h3>
+            <section id="projects" class="projects">
+                <h2 class="section__title">Projects</h2>
                 <ul class="section__list projects__list">
                     <li>
                         <a class="project__link" href="https://github.com/tsuyune/bongo-cat-drum-kit">Bongo cat drum
                             kit</a>
                         <p class="project__skills">JavaScript, HTML, CSS</p>
-                        <p>The project is made for the <a href="https://javascript30.com/">30 Day Vanilla JS Challenge
+                        <p>The project is made for the <a class="code-example__link" href="https://javascript30.com/">30 Day Vanilla JS Challenge
                                 by
                                 Wesbos</a></p>
                     </li>
@@ -100,9 +125,9 @@
                     </li>
                 </ul>
             </section>
-            <section class="code-example">
-                <h3 class="section__title">Code Example</h3>
-                <p>Fizz Buzz task on <a href="https://www.codewars.com/kata/5300901726d12b80e8000498">CodeWars</a></p>
+            <section id="code-example" class="code-example">
+                <h2 class="section__title">Code Example</h2>
+                <p>Fizz Buzz task on <a class="code-example__link" href="https://www.codewars.com/kata/5300901726d12b80e8000498">CodeWars</a></p>
                 <pre class="code-example__code">
                 <code>
 function fizzbuzz(n) {
@@ -120,6 +145,15 @@ function fizzbuzz(n) {
             </pre>
             </section>
         </main>
+        <footer id="footer" class="footer">
+            <p class="copyright">&copy; 2026
+                <a class="footer__link" href="https://github.com/tsuyune">Tsuyune</a>
+            </p>
+            <a href="https://rs.school/courses/javascript-preschool-ru">
+                <img src="./assets/images/rs-school-logo.svg" alt="RS School logo" width="100">
+            </a>
+        </footer>
     </div>
 </body>
+
 </html>

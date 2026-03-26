@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="/assets/favicon/favicon.ico" rel="icon" type="image/x-icon">
 </head>
 
 <body>
@@ -18,19 +19,29 @@
         <header class="header">
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#contacts">Contacts</a></li>
-                    <li class="nav__item"><a href="#intro">Intro</a></li>
-                    <li class="nav__item"><a href="#skills">Skills</a></li>
-                    <li class="nav__item"><a href="#languages">Language skills</a></li>
-                    <li class="nav__item"><a href="#education">Education</a></li>
+                    <li class="nav__item">
+                        <a href="#contacts">Contacts</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#intro">Intro</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#languages">Language skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education">Education</a>
+                    </li>
                 </ul>
             </nav>
         </header>
         <main>
-            <img src="images/cats.jpg" alt="cats" width="500">
+            <img src="./assets/images/cats.jpg" alt="cats" width="500">
             <h1 class="intro__title">Liudmila Larionova</h1>
             <h2 class="intro__role">Junior Frontend Developer</h2>
-            <section class="contacts">
+            <section id="contacts" class="contacts">
                 <h3 class="section__title">Contacts</h3>
                 <p><span class="contacts__label">Location:</span> Batumi, Georgia</p>
                 <p><span class="contacts__label">Email:</span> <a
@@ -42,14 +53,14 @@
                         href="https://www.codewars.com/users/rsschool_40fa3d862cd63ec6">tsuyune</a>
                 </p>
             </section>
-            <section class="intro">
+            <section id="intro" class="intro">
                 <h3 class="section__title">Intro</h3>
                 <p>I am a beginner Frontend Developer, who is enthusiastic about creating user-friendly web interfaces
                     and
                     solving design challenges. Currently expanding my knowledge through hands-on projects and continuous
                     learning in modern frontend technologies.</p>
             </section>
-            <section class="skills">
+            <section id="skills" class="skills">
                 <h3 class="section__title">Skills</h3>
                 <ul class="section__list skills__list">
                     <li>HTML/CSS</li>
@@ -62,7 +73,7 @@
                     <li>Git</li>
                 </ul>
             </section>
-            <section class="languages">
+            <section id="languages" class="languages">
                 <h3 class="section__title">Language skills</h3>
                 <ul class="section__list languages__list">
                     <li>English - <span class="languages__level">Upper-Intermediate</span></li>
@@ -71,7 +82,7 @@
                     <li>Hilichurlian - <span class="languages__level">Intermediate</span></li>
                 </ul>
             </section>
-            <section class="education">
+            <section id="education" class="education">
                 <h3 class="section__title">Education</h3>
                 <ul class="section__list education__list">
                     <li>The Rolling Scopes School - <span class="education__date">now</span></li>
@@ -83,7 +94,7 @@
                     <li>The Young Programmer's School, Petrozavodsk</li>
                 </ul>
             </section>
-            <section class="projects">
+            <section id="projects" class="projects">
                 <h3 class="section__title">Projects</h3>
                 <ul class="section__list projects__list">
                     <li>
@@ -108,7 +119,7 @@
                     </li>
                 </ul>
             </section>
-            <section class="code-example">
+            <section id="code-example" class="code-example">
                 <h3 class="section__title">Code Example</h3>
                 <p>Fizz Buzz task on <a href="https://www.codewars.com/kata/5300901726d12b80e8000498">CodeWars</a></p>
                 <pre class="code-example__code">
@@ -128,12 +139,12 @@ function fizzbuzz(n) {
             </pre>
             </section>
         </main>
-        <footer class="footer">
-            <p>&copy; 2026
-                <a href="https://github.com/tsuyune">Tsuyune</a>
+        <footer id="footer" class="footer">
+            <p class="copyright">&copy; 2026
+                <a class="footer__link" href="https://github.com/tsuyune">Tsuyune</a>
             </p>
             <a href="https://rs.school/courses/javascript-ru">
-                <img src="images/rs-school-logo.svg" alt="RS School logo" width="100">
+                <img src="./assets/images/rs-school-logo.svg" alt="RS School logo" width="100">
             </a>
         </footer>
     </div>

@@ -1,0 +1,124 @@
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.nav {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.about__title {
+    margin: 0;
+    color: #4f4082;
+}
+
+.about__role {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #4f4082b4;
+    margin: 0;
+}
+
+.contacts__label {
+    font-weight: 700;
+}
+
+.contacts__link, .code-example__link {
+    text-decoration: underline transparent;
+    transition: all 0.3s ease-in-out;
+    color: #007acc;
+}
+
+.contacts__link:hover, .code-example__link:hover {
+    text-decoration-color: #007acc;
+}
+
+
+.project__link {
+    text-decoration: underline transparent;
+    transition: all 0.3s ease-in-out;
+    font-weight: 700;
+    font-size: 1.2em;
+
+    color: #007acc;
+}
+
+.project__link:hover {
+    text-decoration-color: #007acc;
+}
+
+.code-example__code {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.section__title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+
+    color: #4f4082db;
+}
+
+.section__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.languages__level {
+    font-style: italic;
+    color: #555;
+}
+
+.education__date {
+    font-style: italic;
+    color: #555;
+}
+
+.project__skills {
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footer__link, .nav__link {
+    text-decoration: underline transparent;
+    transition: all 0.3s ease-in-out;
+    color: #007acc;
+    font-weight: 700;
+}
+
+.footer__link:hover, .nav__link:hover {
+    text-decoration-color: #007acc;
+}
